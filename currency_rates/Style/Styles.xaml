@@ -1,0 +1,18 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:currency_rates.Style"
+                    xmlns:controls="clr-namespace:currency_rates.Views"
+                    xmlns:vm ="clr-namespace:currency_rates.ViewsModel" >
+
+
+    <DataTemplate DataType="{x:Type vm:CurrencyViewModel}">
+        <controls:LiveCurrencyView/>
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type vm:ConvertViewModel}">
+        <controls:ConvertView/>
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type vm:CurrencyHistoryViewModel}">
+        <controls:CurrencyHistoryView/>
+    </DataTemplate>
+
+</ResourceDictionary>

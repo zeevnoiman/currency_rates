@@ -1,0 +1,16 @@
+C:\Users\Daniel\source\repos\currency_rates\DAL\bin\Debug\DAL.dll.config
+C:\Users\Daniel\source\repos\currency_rates\DAL\bin\Debug\DAL.dll
+C:\Users\Daniel\source\repos\currency_rates\DAL\bin\Debug\DAL.pdb
+C:\Users\Daniel\source\repos\currency_rates\DAL\bin\Debug\ClassLibrary1.dll
+C:\Users\Daniel\source\repos\currency_rates\DAL\bin\Debug\EntityFramework.dll
+C:\Users\Daniel\source\repos\currency_rates\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Daniel\source\repos\currency_rates\DAL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Daniel\source\repos\currency_rates\DAL\bin\Debug\ClassLibrary1.pdb
+C:\Users\Daniel\source\repos\currency_rates\DAL\bin\Debug\ClassLibrary1.dll.config
+C:\Users\Daniel\source\repos\currency_rates\DAL\bin\Debug\EntityFramework.xml
+C:\Users\Daniel\source\repos\currency_rates\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Daniel\source\repos\currency_rates\DAL\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Daniel\source\repos\currency_rates\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\Daniel\source\repos\currency_rates\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Daniel\source\repos\currency_rates\DAL\obj\Debug\DAL.dll
+C:\Users\Daniel\source\repos\currency_rates\DAL\obj\Debug\DAL.pdb

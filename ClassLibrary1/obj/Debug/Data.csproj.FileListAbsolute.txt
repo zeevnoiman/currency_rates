@@ -1,0 +1,13 @@
+C:\Users\Daniel\source\repos\currency_rates\ClassLibrary1\bin\Debug\ClassLibrary1.dll.config
+C:\Users\Daniel\source\repos\currency_rates\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+C:\Users\Daniel\source\repos\currency_rates\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+C:\Users\Daniel\source\repos\currency_rates\ClassLibrary1\bin\Debug\EntityFramework.dll
+C:\Users\Daniel\source\repos\currency_rates\ClassLibrary1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Daniel\source\repos\currency_rates\ClassLibrary1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Daniel\source\repos\currency_rates\ClassLibrary1\bin\Debug\EntityFramework.xml
+C:\Users\Daniel\source\repos\currency_rates\ClassLibrary1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Daniel\source\repos\currency_rates\ClassLibrary1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Daniel\source\repos\currency_rates\ClassLibrary1\obj\Debug\Data.csprojResolveAssemblyReference.cache
+C:\Users\Daniel\source\repos\currency_rates\ClassLibrary1\obj\Debug\Data.csproj.CoreCompileInputs.cache
+C:\Users\Daniel\source\repos\currency_rates\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+C:\Users\Daniel\source\repos\currency_rates\ClassLibrary1\obj\Debug\ClassLibrary1.pdb

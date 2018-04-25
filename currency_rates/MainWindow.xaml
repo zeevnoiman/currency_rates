@@ -1,0 +1,39 @@
+﻿<Window x:Class="currency_rates.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:currency_rates"
+        xmlns:Command="clr-namespace:currency_rates.Commands"
+        xmlns:controls ="clr-namespace:currency_rates.Views"
+        xmlns:vm ="clr-namespace:currency_rates.ViewsModel"   
+        xmlns:chart="http://schemas.syncfusion.com/wpf"             
+        mc:Ignorable="d"
+        Title="Currency On Live" Icon="C:\Users\Daniel\source\repos\currency_rates\currency_rates\images\favicon.ico" WindowState="Maximized" WindowStyle="SingleBorderWindow">
+
+
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Style\Styles.xaml">
+                </ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="C:\Users\Daniel\source\repos\currency_rates\currency_rates\images\template_main.jpg"/>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="451*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <controls:ToolBarView Grid.Row="0" />
+        <ContentControl x:Name="Pages" Grid.Row="1" Content="{Binding SelectedViewModel}"/>
+
+    </Grid>
+</Window>
