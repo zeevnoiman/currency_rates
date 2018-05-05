@@ -31,9 +31,10 @@ namespace currency_rates.Commands
 
         public void Execute(object parameter)
         {
-            List<CurrencyHistory> myList = new List<CurrencyHistory>();            
-            Task myTask= Task.Factory.StartNew(() => HistoryAdded(BL.Logic.GetCurrencyHistoryFromStartDate(source, target, Code)));
-            //HistoryAdded(BL.Logic.GetCurrencyHistoryFromStartDate(source, target, Code));
+            
+            //Task<List<CurrencyHistory>> myTask = Task.Factory.StartNew(() => BL.Logic.GetCurrencyHistoryFromStartDate(source, target, Code));
+
+            HistoryAdded(BL.Logic.GetCurrencyHistoryFromStartDate(source, target, Code));
         }
     }
 }

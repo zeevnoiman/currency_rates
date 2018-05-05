@@ -156,7 +156,7 @@ namespace BL
         }
 
 
-        public static List<CurrencyHistory> GetCurrencyHistoryFromStartDate(string sourceQuote, string targetQuote, string code)
+         public static List<CurrencyHistory> GetCurrencyHistoryFromStartDate(string sourceQuote, string targetQuote, string code)
         {
             List<CurrencyHistory> currenciesHistory = new List<CurrencyHistory>();
             DateTime today = DateTime.Now;
